@@ -1,6 +1,7 @@
 # Tip renamer for Newick/Nexus formatted trees.
 
-Using a tab-delimited translation table, convert tip labels for [Newick](http://evolution.genetics.washington.edu/phylip/newicktree.html) or [Nexus](https://en.wikipedia.org/wiki/Nexus_file) formatted trees. **NOTE: for Nexus formatted trees, there can be NO spaces in the translation names.**
+Using a tab-delimited translation table, convert tip labels for [Newick](http://evolution.genetics.washington.edu/phylip/newicktree.html) or [Nexus](https://en.wikipedia.org/wiki/Nexus_file) formatted trees.  
+**NOTE: for Nexus formatted trees, there can be NO spaces in the translation names.**
 
 ### Example call: 
     perl tree_tip_replacer.pl [translation_file] [treefile] 
